@@ -1,0 +1,101 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Task1 Page of Django Intership</title>
+
+    <link
+      rel="stylesheet"
+      href="{% static 'style1.css'%}"
+      type="text/css"
+      media="screen"
+    />
+
+    <link
+      rel="stylesheet"
+      href="{% static 'bootstrap.min.css'%}"
+      type="text/css"
+      media="screen"
+    />
+  </head>
+
+  <body class="pace-done is_index_lout">
+    <nav class="navbar navbar-expand-lg py-3 navbar-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <!-- Logo Image -->
+          <img
+            src="https://www.o1codingclub.in/static/media/logo.a2fbdf89b6fd77800ec883567f238e84.svg"
+            alt="logo"
+          />
+          <!-- Logo Text -->
+        </a>
+
+        <button
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- FOR DEMO PURPOSE-->
+    <section class="py-5">
+      <h2>
+        Task 1 of SDE Intership by
+        <a href="https://www.o1codingclub.in/"> O(1) Coding Club</a>
+      </h2>
+      <div class="container py-5">
+        <ol class="pl-3">
+          <li class="mb-3">
+            Created a new Html page named<code> "task.html"</code>
+          </li>
+          <li class="mb-3">
+            Created a basic file named<code> "style.css"</code>
+          </li>
+          <li class="mb-3">
+            We have created a new url <code> localhost:8000/url/task</code>
+          </li>
+          <li class="mb-3">
+            We have created a <code>view</code> which will respond with
+            task.html
+          </li>
+          <li class="mb-3">
+            We have to get data <code> Dynamically </code> on our html page
+          </li>
+        </ol>
+      </div>
+    </section>
+    <footer>
+      <h3>
+        Copyright © 2022, All Right Reserved
+        <a href="https://www.o1codingclub.in/"> O(1) Coding Club</a>
+      </h3>
+    </footer>
+  </body>
+</html>
